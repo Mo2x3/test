@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في موقعي الشخصي</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home"> about </a></li>
+            <li><a href="#about">من أنا</a></li>
+            <li><a href="#services">خدماتي</a></li>
+            <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>الرئيسية</h2>
+        <p>مرحبًا! هذا هو موقعي الشخصي حيث أقدم خدماتي.</p>
+    </section>
+    <section id="about">
+        <h2>من أنا</h2>
+        <p>تعرف عليّ وعلى مهاراتي.</p>
+    </section>
+    <section id="services">
+        <h2>خدماتي</h2>
+        <p>تعرف على الخدمات التي أقدمها.</p>
+    </section>
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <form>
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">رسالتك:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
